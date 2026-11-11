@@ -30,17 +30,43 @@ Lijevi klik na traženu kocku -> Alt + D -> Enter -> G
  -> 1 -> Enter
 
 ### Programsko sučelje:
+```python
+import bpy
+kocka_object = bpy.data.objects['Kocka'] # pod pretpostavkom da navedeni objekt u 3D viewportu ima naziv 'Kocka'
+kocka_mesh = kocka_object.data
 
-(prvi kod)
+pomak = 2
+
+kockaduplikat_object = kocka_object.copy()
+kockaduplikat_mesh = kocka_mesh
+bpy.context.scene.collection.objects.link(kockaduplikat_object)
+kockaduplikat_object.location.x += pomak
+```
 
 
 Za jedan jednostavan primjer poput gore navedenog, grafičko sučelje radi posao intuitivno, na način na koji je poznat prosječnom Blender korisniku.
 Međutim, što ako taj isti posao treba napraviti 100 puta, umjesto samo jednom?
 Programsko sučelje zaobilazi upravo taj problem, na način da se posao izvrši putem koda. U prethodnom primjeru, kod možemo zamijeniti sljedećim:
 
+```python
+import bpy
+kocka_object = bpy.data.objects['Kocka'] # pod pretpostavkom da navedeni objekt u 3D viewportu ima naziv 'Kocka'
+kocka_mesh = kocka_object.data
 
-(drugi kod)
+pomak = 2
 
+
+broj_ponavljanja = 5
+x_trenutni = kocka_object.location.x
+
+for i in range(0, broj_ponavljanja):
+    kockaduplikat_object = kocka_object.copy()
+    kockaduplikat_mesh = kocka_mesh
+    bpy.context.scene.collection.objects.link(kockaduplikat_object)
+    kockaduplikat_object.location.x += pomak
+    x_trenutni += pomak
+    kockaduplikat_object.location.x = x_trenutni
+```
 
 Iz navedenoga je vidljivo da je programsko sučelje, odnosno API, samo programski način rješavanja grafičkog posla. Navedeno se u načelu može primijeniti i na puno drugih programa pored Blendera.
 
