@@ -16,15 +16,9 @@ Nekoliko pokaznih primjera nalazi se u folderu `primjeri`. Popis svih prevedenih
 
 ### Popis dostupnih funkcija:
 
-
-| Command |
+| Popis funkcija |
 | --- |
-| git status |
-| git diff |
-
-
-| ```pythonKugla( dimenzije = (1,1,1), pozicija = (0,0,0), rotacija = (0,0,0), centriraj = Da, rezolucija = 32 )``` |
-| --- |
+| Kugla( dimenzije = (1,1,1), pozicija = (0,0,0), rotacija = (0,0,0), centriraj = Da, rezolucija = 32 ) |
 | Opis: Stvara objekt u obliku kugle pozivajući se na Blenderove ugrađene primitivne objekte. Povratna vrijednost je objekt stvoren pozivom ove funkcije.
 **PARAMETRI**: 
 - **dimenzije**: tročlani tuple gdje svaki član mora biti tipa `int` ili `float`. Parametar opisuje dimenziju po x,y odnosno z osi izraženu u milimetrima.
