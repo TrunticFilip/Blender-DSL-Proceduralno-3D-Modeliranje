@@ -244,6 +244,7 @@ Sve do sada navedene metode  obavljale su se na objektu tipa `Objekt`. Sve daljn
 <details>
 <summary>Tablica 2</summary>
 <table>
+<tr><td>Tablica 2</td></tr>
 <tr><td> <code> StvoriPrazanObjekt(pozicija = (0,0,0), rotacija = (0,0,0)) </code> <br><br>
 <b>Opis</b>: Stvara prazan objekt tipa PrazanObjekt s mogućnošću navođenja početne pozicije odnosno rotacije.<br><br>
 <b>Parametri</b>:
