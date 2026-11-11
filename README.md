@@ -16,19 +16,6 @@ Nekoliko pokaznih primjera nalazi se u folderu `primjeri`. Popis svih prevedenih
 
 ### Popis dostupnih funkcija:
 
-| Popis funkcija |
-| --- |
-| ```pythonKugla( dimenzije = (1,1,1), pozicija = (0,0,0), rotacija = (0,0,0), centriraj = Da, rezolucija = 32 )```
-Opis: Stvara objekt u obliku kugle pozivajući se na Blenderove ugrađene primitivne objekte. Povratna vrijednost je objekt stvoren pozivom ove funkcije.
-**PARAMETRI**: 
-- **dimenzije**: tročlani `tuple` gdje svaki član mora biti tipa `int` ili `float`. Parametar opisuje dimenziju po x,y odnosno z osi izraženu u milimetrima.
-- **pozicija**: tročlani `tuple` gdje svaki član mora biti tipa `int` ili `float`, određuje početne (x,y,z) koordinate stvorenog objekta u prostoru
-- **rotacija** - tročlani `tuple` gdje svaki član mora biti tipa `int` ili `float`, određuje početnu rotaciju objekta u stupnjevima
-- **centriraj** - Da/Ne `Bool` vrijednost koja, ukoliko istinita, postavlja pozicijske koordinate na takav način da se centar objekta nalazi u središtu koordinatnog sustava
-- **rezolucija** - `int` broj veći od nule, određuje broj poligona koji se nalaze na najkraćem obilasku oko objekta, slično $fn parametru u OpenSCAD domenskom jeziku
-**POVRATNI TIP**: Objekt
-`Kocka(…)`, `Valjak(…)`, `Stozac(…)` – metode koje obavljaju funkcionalno isti posao kao `Kugla()`, uz razliku da je rezultirajući objekt u obliku kocke, valjka odnosno stožca. `Kocka()` je jedina od ovih metoda koja ne uvažava parametar `rezolucija`. |
-| ```pythonPostojeciObjekt(objekt)``` |
 
 
 
