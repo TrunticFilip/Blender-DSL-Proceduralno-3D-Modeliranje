@@ -1,4 +1,4 @@
-# Blender-DSL-za-proceduralno-3D-modeliranje
+# Blender DSL za proceduralno 3D modeliranje
 Ovaj domenski jezik, koji sam izradio za diplomski rad, omogućuje proceduralno 3D modeliranje putem koda, slično OpenSCAD jeziku. Korisnik može kroz kod iscrtavati pojedinačne vertexe, edgeve i faceove, stvarati Blenderove ugrađene primitivne objekte, izvoditi Boolean operatore itd.
 Iako je DSL prvenstveno usmjeren na proceduralno 3D modeliranje, moguće je proširiti opseg programa s dodatnim, vlastitim funkcionalnostima.
 
@@ -10,7 +10,7 @@ U prijevodu, jedan podskup Blender API-a se kroz ovaj program prezentira na nač
 
 =========================================================
 
-## Upute za korištenje:
+### Upute za korištenje:
 - text datablock naziva PokreniMe.py (referencira se na datoteku PokreniMe.py) - pokretanjem ove skripte izvršava se kod u DSL-u
 - text datablock naziva KOD - sadrži kod DSL-a koji se izvršava
 - text datablock naziva module_OOP.py (referencira se na datoteku module_OOP.py) - sadrži svu programsku logiku koja se u KOD može koristiti kao modul
@@ -21,7 +21,7 @@ Popis dostupnih funkcija:
 
 
 
-## Što je API, i koji problem ovaj program rješava?
+### Što je API, i koji problem ovaj program rješava?
 Neki posao koji se obavlja kroz defaultno, grafičko sučelje, često se može rješiti i kroz programsko sučelje, odnosno API.
 
 Jedan elementaran primjer - u .blend fileu postoji jedna primitivna kocka naziva 'Kocka'. Potrebno je napraviti duplikat objekta (dva različita objecta koji se referenciraju na isti mesh) i translatirati ga za jedan metar po globalnoj X-osi.
