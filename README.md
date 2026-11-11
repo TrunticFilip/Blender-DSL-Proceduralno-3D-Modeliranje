@@ -15,8 +15,6 @@ U prijevodu, jedan podskup Blender API-a se kroz ovaj program prezentira na nač
 Nekoliko pokaznih primjera nalazi se u folderu `primjeri`. Popis svih prevedenih ključnih riječi i operatora nalazi se u PokreniMe.py u `RJECNIK_KLJUCNIH_RIJECI`. Moguće je dodavati i nove članove u navedenu varijablu, pod pretpostavkom da postoje u Pythonu (DSL je ostvaren kroz sloj predprocesiranja koda u KOD gdje se izvorne, postojeće ključne riječi prevode u odgovarajući pojam koji je naveden u `RJECNIK_KLJUCNIH_RIJECI`. Nije moguće prevesti nešto što ne postoji in the first place.)
 
 ### Popis dostupnih funkcija:
-<details>
-<summary>Klikni za prikaz</summary>
 
 |```pythonKugla( dimenzije = (1,1,1), pozicija = (0,0,0), rotacija = (0,0,0), centriraj = Da, rezolucija = 32 )```|
 | --- | --- |
@@ -33,11 +31,6 @@ Kocka(…), Valjak(…), Stozac(…) – metode koje obavljaju funkcionalno isti
 |```pythonPostojeciObjekt(objekt)```|
 
 
-
-
-
-
-</details>
 
 
 
