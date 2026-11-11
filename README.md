@@ -46,7 +46,7 @@ kockaduplikat_object.location.x += pomak
 
 Za jedan jednostavan primjer poput gore navedenog, grafičko sučelje radi posao intuitivno, na način na koji je poznat prosječnom Blender korisniku.
 Međutim, što ako taj isti posao treba napraviti 100 puta, umjesto samo jednom?
-Programsko sučelje zaobilazi upravo taj problem, na način da se posao izvrši putem koda. U prethodnom primjeru, kod možemo zamijeniti sljedećim:
+Programsko sučelje zaobilazi upravo taj problem, na način da se posao izvrši putem koda. U prethodnom primjeru, u postupak se može staviti proizvoljan broj ponavljanja kroz for petlju, na način kako je prikazano u sljedećemn programskom bloku:
 
 ```python
 import bpy
@@ -54,7 +54,6 @@ kocka_object = bpy.data.objects['Kocka'] # pod pretpostavkom da navedeni objekt 
 kocka_mesh = kocka_object.data
 
 pomak = 2
-
 
 broj_ponavljanja = 5
 x_trenutni = kocka_object.location.x
