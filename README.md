@@ -6,9 +6,6 @@ Glavna prednost ovog DSL-a jest da, za razliku od ugrađenog API-a, nije potrebn
 
 U prijevodu, jedan podskup Blender API-a se kroz ovaj program prezentira na način jednostavniji prosječnom korisniku Blendera, a ciljani use case je 3D modeliranje putem koda.
 
-=========================================================
-
-=========================================================
 
 ## Upute za korištenje:
 - text datablock naziva 'PokreniMe.py' (referencira se na datoteku `PokreniMe.py`) - pokretanjem ove skripte izvršava se kod u DSL-u
