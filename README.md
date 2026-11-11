@@ -17,10 +17,10 @@ Nekoliko pokaznih primjera nalazi se u folderu `primjeri`. Popis svih prevedenih
 ### Popis dostupnih funkcija:
 
 
-| Command | Description |
+| Command |  |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| git status |  |
+| git diff | |
 
 
 | ```pythonKugla( dimenzije = (1,1,1), pozicija = (0,0,0), rotacija = (0,0,0), centriraj = Da, rezolucija = 32 )``` |
