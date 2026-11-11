@@ -17,7 +17,14 @@ Nekoliko pokaznih primjera nalazi se u folderu `primjeri`. Popis svih prevedenih
 ### Popis dostupnih funkcija:
 <details>
 <summary>Klikni za prikaz</summary>
- 
+
+`pythonKugla( dimenzije = (1,1,1), pozicija = (0,0,0), rotacija = (0,0,0), centriraj = Da, rezolucija = 32 )`
+
+
+
+
+
+
 </details>
 
 
