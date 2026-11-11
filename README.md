@@ -11,13 +11,17 @@ U prijevodu, jedan podskup Blender API-a se kroz ovaj program prezentira na nač
 =========================================================
 
 ## Upute za korištenje:
-- text datablock naziva PokreniMe.py (referencira se na datoteku PokreniMe.py) - pokretanjem ove skripte izvršava se kod u DSL-u
-- text datablock naziva KOD - sadrži kod DSL-a koji se izvršava
-- text datablock naziva module_OOP.py (referencira se na datoteku module_OOP.py) - sadrži svu programsku logiku koja se u KOD može koristiti kao modul
+- text datablock naziva 'PokreniMe.py' (referencira se na datoteku `PokreniMe.py`) - pokretanjem ove skripte izvršava se kod u DSL-u
+- text datablock naziva 'KOD' - sadrži kod DSL-a koji se izvršava
+- text datablock naziva 'module_OOP.py' (referencira se na datoteku `module_OOP.py`) - sadrži svu programsku logiku koja se u KOD može koristiti kao modul
 
-Nekoliko pokaznih primjera nalazi se u folderu 'primjeri'. Popis svih prevedenih ključnih riječi i operatora nalazi se u PokreniMe.py u RJECNIK_KLJUCNIH_RIJECI. Moguće je dodavati i nove članove u navedenu varijablu, pod pretpostavkom da postoje u Pythonu (DSL je ostvaren kroz sloj predprocesiranja koda u KOD gdje se izvorne, postojeće ključne riječi prevode u odgovarajući pojam koji je naveden u RJECNIK_KLJUCNIH_RIJECI. Nije moguće prevesti nešto što ne postoji in the first place.)
+Nekoliko pokaznih primjera nalazi se u folderu `primjeri`. Popis svih prevedenih ključnih riječi i operatora nalazi se u PokreniMe.py u `RJECNIK_KLJUCNIH_RIJECI`. Moguće je dodavati i nove članove u navedenu varijablu, pod pretpostavkom da postoje u Pythonu (DSL je ostvaren kroz sloj predprocesiranja koda u KOD gdje se izvorne, postojeće ključne riječi prevode u odgovarajući pojam koji je naveden u `RJECNIK_KLJUCNIH_RIJECI`. Nije moguće prevesti nešto što ne postoji in the first place.)
 
-Popis dostupnih funkcija:
+### Popis dostupnih funkcija:
+<details>
+<summary>Klikni za prikaz</summary>
+ 
+</details>
 
 
 
