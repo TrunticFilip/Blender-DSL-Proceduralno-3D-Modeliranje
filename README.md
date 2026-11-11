@@ -17,7 +17,7 @@ Nekoliko pokaznih primjera nalazi se u folderu `primjeri`. Popis svih prevedenih
 ## Popis dostupnih funkcija:
 
 <details>
-<summary>Popis 1</summary>
+<summary>Tablica 1</summary>
 <table>
 <tr><td>Popis funkcija</td></tr>
 <tr><td> <code> Kugla( dimenzije =  (1,1,1), pozicija =  (0,0,0), rotacija =  (0,0,0), centriraj =  Da, rezolucija =  32  ) </code> <br><br> <b>Opis</b>: Stvara objekt u obliku kugle pozivajući se na Blenderove ugrađene primitivne objekte. Povratna vrijednost je objekt stvoren pozivom ove funkcije.  <br> <br>
@@ -242,7 +242,7 @@ Ako scena nije navedena, objekt se traži u aktivnoj sceni. Ako scena je naveden
 Sve do sada navedene metode  obavljale su se na objektu tipa `Objekt`. Sve daljnje metode pozivaju se na objektu tipa `PrazanObjekt`, koji nasljeđuje klasu `Objekt`. Posljedično, metode iz ovog potpoglavlja mogu se izvoditi samo na objektima tipa `PrazanObjekt`.
 
 <details>
-<summary>Popis 2</summary>
+<summary>Tablica 2</summary>
 <table>
 <tr><td> <code> StvoriPrazanObjekt(pozicija = (0,0,0), rotacija = (0,0,0)) </code> <br><br>
 <b>Opis</b>: Stvara prazan objekt tipa PrazanObjekt s mogućnošću navođenja početne pozicije odnosno rotacije.<br><br>
@@ -373,7 +373,7 @@ Potrebno je najmanje tri točke da bi se mogla stvoriti ploha.<br><br>
 </td></tr>
 </table>
 </details>
-Za sve funkcije navedene u ovoj tablici, potrebno je pozvati funkciju <code>IzvediPromjene(objekt)</code> da bi se promjene iz navedenih funkcija zapravo primijenile. Također, funkcije koje mijenjaju poziciju, rotaciju ili dimenzije objekta, kao što su primjerice <code>Skaliraj()</code> i <code>Dimenzioniraj()</code>, neće ispravno raditi ukoliko su pozvane prije <code>IzvediPromjene(objekt)</code> .
+Za sve funkcije navedene u Tablici 2, potrebno je pozvati funkciju <code>IzvediPromjene(objekt)</code> da bi se promjene iz navedenih funkcija zapravo primijenile. Također, funkcije koje mijenjaju poziciju, rotaciju ili dimenzije objekta, kao što su primjerice <code>Skaliraj()</code> i <code>Dimenzioniraj()</code>, neće ispravno raditi ukoliko su pozvane prije <code>IzvediPromjene(objekt)</code> .
 
 
 ## Što je API, i koji problem ovaj program rješava?
